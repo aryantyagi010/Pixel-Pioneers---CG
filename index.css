@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    /* text-align: center; */
+}
+
+.navbar{
+    height: 10vh;
+}
+
+/* .challenge1, .ideation, .challenge2{
+    border-bottom: 3px solid black;
+} */
+
+.parts{
+    border-bottom: 3px solid black;
+}
+
+.images img{
+    width: 250px;
+    height: 250px;
+}
+
+.imagesIns img{
+    width: 350px;
+    height: 350px;
+}
